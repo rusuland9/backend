@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_cat_heroes",
+  "info": {
+    "displayName": "cat-hero",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
