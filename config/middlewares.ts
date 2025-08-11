@@ -20,13 +20,15 @@
         config: {
           enabled: true,
           headers: '*',
-          origin: ['http://localhost:3000', 'http://127.0.0.1:3000']
+          origin: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3001', 'cutes-cats.vercel.app']
         }
       },
-      'strapi::poweredBy',
+       'strapi::poweredBy',
+      'strapi::logger',
       'strapi::query',
       'strapi::body',
       'strapi::session',
       'strapi::favicon',
       'strapi::public',
     ];
+
